@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    border: 2px solid #000;
+    display: grid;
+    gap: 10px;
+}
+
+.box{
+    border: 2px solid #008000;
+    padding: 12px;
+}
+
+.boxes{
+    border: 2px solid #ff0000;
+    padding: 6px;
+    display: grid;
+    /* gap: 5px; */
+    /* row-gap: 5px;
+    column-gap: 5px; */
+}

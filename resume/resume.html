@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(253, 254, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full {
+    width: 50%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: rgb(245, 239, 231);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.left {
+    position: initial;
+    background-color: rgb(126, 219, 231);
+    padding: 20px;
+ 
+}
+.right {
+    position: initial;
+    background-color: rgb(162, 202, 206);
+    padding: 20px;
+ 
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title,
+.Summary, .Experience, .Education, .project {
+    margin-bottom: 30px;
+}
+.h2 {
+    background-color: rgb(4, 96, 150);
+}
+    </style>
+</head>
+<body>
+    <div class="full">
+        <div class="left">
+            <div class="img">
+                <img src="./pics.jpg" alt="" style="width: 100px; height: 100px;" >
+            </div>
+            <div class="contact">
+                <h2>contact</h2>
+                <p><b>Email id: </b>pujathakur453@gmail.com</p>
+                <p><b>Mobile no: </b>9877899712</p>
+            </div>
+            <div class="skill">
+                <h2>skill</h2>
+                <ul>
+                    <li><b> Programming Languages : JavaScript</b></li>
+                    <li><b>Frontend : HTML, CSS, Tailwind, JavaScript, React</b></li>
+                    <li><b>Backend : Node.js , Express.js </b></li>
+                </ul>
+            </div>
+            <div class="language">
+                <h2>Language</h2>
+                <ul>
+                    <li>English</li>
+                    <li>Hindi</li>
+                </ul>
+            </div>
+            <div class="hobbies">
+                <h2>Hobbies</h2>
+                <ul>
+                    <li>Watching comedy shows</li>
+                    <li>Listing music</li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="name">
+                <h1>Puja Kumari</h1>
+            </div>
+            <!-- <div class="title">
+                <p>Web Developer</p>
+            </div> -->
+            <div class="Summary">
+                <h2>Summary</h2>
+                <p>To secure a challenging position in a
+                  reputable organization
+                    to expand my learning knowledge and skill
+                </p>
+            </div>
+            <div class="Experience">
+                <h2>Experience</h2>
+                <h3>Eclerx - Senior Analyst</h3>
+                <p>June 2016 to Present</p>
+                <ul>
+                    <li>collecting and analysing the data based on the client requirement with the help of excel</li>
+                    <li>Working on Case studies to improve data quality and share reports with manager to improve the accuracy.</li>
+                </ul>
+               
+            </div>
+            <div class="Education">
+                <h2>Education</h2>
+                <table border="">
+                    <tr>
+                        <th>University/Institute</th>
+                        <th>Course</th>
+                        <th>Passing year  </th>
+                        <th>percentage/cgpa</th>
+                    </tr>
+                    <tr>
+                        <td>GGSCMT Kharar,Mohali</td>
+                        <td>B.tech In ECE</td>
+                        <td>2016</td>
+                        <td>76</td>
+                    </tr>
+                    <tr>
+                        <td>BSEB Patna</td>
+                        <td>12<sup>th</sup></td>
+                        <td>2012</td>
+                        <td>55</td>
+                    </tr>
+                    <td>BSEB Patna</td>
+                    <td>10<sup>th</sup></td>
+                    <td>2010</td>
+                    <td>61</td>
+                </table>
+            </div>
+            <div class="project">
+                <ul>
+                    <li>
+                        <h2>SEO Master</h2>
+                        <p>This project is based on html
+                          & CSS</p>
+                    </li>
+                    <li>
+                        <h2>Vs code Clone</h2>
+                        <p>This project is based on html
+                          & Tailwind</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
